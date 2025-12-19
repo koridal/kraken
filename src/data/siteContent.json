@@ -1,0 +1,245 @@
+{
+  "siteTitle": "Kraken World",
+  "tagline": "Learn with the ocean, unlock new adventures.",
+  "home": {
+    "heroTitle": "Dive into Kraken World",
+    "heroSubtitle": "Learn ocean secrets, earn glowing pearls, and unlock videos and games with a friendly deep-sea Kraken.",
+    "primaryCtaLabel": "Start Learning",
+    "primaryCtaHref": "/learning",
+    "secondaryCtaLabel": "See Your Ocean",
+    "secondaryCtaHref": "/my-ocean",
+    "highlightTitle": "How Kraken World Works",
+    "highlightItems": [
+      "Learn short ocean lessons made for curious kids.",
+      "Earn shiny pearls when you finish missions and quizzes.",
+      "Spend pearls to watch Kraken videos and play games.",
+      "Come back to learn more and grow your own ocean world."
+    ],
+    "lockedPreviewTitle": "Locked for now… but not forever",
+    "lockedPreviewDescription": "Finish your first learning mission to unlock Kraken videos and the mini‑game."
+  },
+  "learning": {
+    "introTitle": "Learning Missions",
+    "introSubtitle": "Each mission teaches one clear idea about Krakens and the ocean. Finish the cards and quiz to earn pearls.",
+    "levels": [
+      {
+        "id": "kraken-basics",
+        "title": "Meet the Friendly Kraken",
+        "levelLabel": "Mission 1",
+        "difficulty": "Grade 2+",
+        "rewardPoints": 35,
+        "summary": "Discover where the Kraken legend comes from and what real ocean animals might have inspired it.",
+        "cards": [
+          {
+            "id": "story",
+            "title": "A Story from Sailors",
+            "body": "Long ago, sailors told stories about a giant sea creature called the Kraken. They used these stories to explain scary storms and strange things they saw in the water."
+          },
+          {
+            "id": "real-animals",
+            "title": "Real Ocean Giants",
+            "body": "Today we know that giant squids and other large sea animals live deep in the ocean. In the dark, they can look huge and mysterious, just like a Kraken in a story."
+          },
+          {
+            "id": "fact-and-legend",
+            "title": "Legend and Science",
+            "body": "A legend is a story people tell again and again. Science is how we test ideas to see if they are true. The Kraken is a legend, but real animals and the deep sea are what science can study."
+          }
+        ],
+        "quiz": [
+          {
+            "id": "q1",
+            "question": "Why did sailors talk about a Kraken?",
+            "options": [
+              "To explain strange things they saw in the ocean",
+              "To talk about deserts and sand",
+              "To teach math and numbers"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "id": "q2",
+            "question": "Which animals might have inspired the Kraken legend?",
+            "options": [
+              "Giant squids and other big sea animals",
+              "Tiny ants on the beach",
+              "Birds that fly over the sea"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "id": "q3",
+            "question": "What is the difference between a legend and science?",
+            "options": [
+              "A legend is a story; science tests if ideas are true",
+              "A legend is a number; science is a color",
+              "A legend is a boat; science is a fish"
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      {
+        "id": "ocean-safe",
+        "title": "Safe and Kind Oceans",
+        "levelLabel": "Mission 2",
+        "difficulty": "Grade 2+",
+        "rewardPoints": 40,
+        "summary": "Learn how to keep the ocean safe for animals, plants, and people.",
+        "cards": [
+          {
+            "id": "home",
+            "title": "The Ocean is a Home",
+            "body": "The ocean is home to fish, whales, squids, corals, and many tiny creatures. When we take care of the water, we protect every home under the waves."
+          },
+          {
+            "id": "trash",
+            "title": "Trouble with Trash",
+            "body": "When trash falls into the sea, animals can eat it by mistake or get stuck in it. This can hurt them or make it hard for them to swim and breathe."
+          },
+          {
+            "id": "helpers",
+            "title": "You Can Be a Helper",
+            "body": "You help the ocean when you throw trash in the bin, use less plastic, and learn more about sea life. Even small choices add up to big changes over time."
+          }
+        ],
+        "quiz": [
+          {
+            "id": "q1",
+            "question": "Why is the ocean important to animals?",
+            "options": [
+              "It is their home and gives them food",
+              "It is a place to park cars",
+              "It is only for people to swim in"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "id": "q2",
+            "question": "Why is trash in the ocean a problem?",
+            "options": [
+              "Animals can be hurt or stuck in it",
+              "It makes the ocean taste like candy",
+              "It turns the water into clouds"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "id": "q3",
+            "question": "How can you help the ocean?",
+            "options": [
+              "Throw trash in the bin and use less plastic",
+              "Throw more trash in the water",
+              "Never talk about the ocean"
+            ],
+            "correctIndex": 0
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "id": "giant-squid-discovery",
+      "title": "Giant Squid: Real Life Kraken",
+      "description": "Discover the real giant squid that inspired the Kraken legend. See how scientists found this amazing deep-sea creature.",
+      "pointsCost": 10,
+      "embedUrl": "https://www.youtube.com/embed/kIPJrH9nRo4?si=XrAu1npcws6L609z",
+      "duration": "4:15",
+      "hint": "Perfect after learning about the Kraken legend in Mission 1."
+    },
+    {
+      "id": "kraken-mythology",
+      "title": "The Kraken Legend Story",
+      "description": "Learn about the ancient stories sailors told about the giant sea monster called the Kraken.",
+      "pointsCost": 12,
+      "embedUrl": "https://www.youtube.com/embed/tTpbZVxz3SI?si=PP5CRM7KIVD7nAeB",
+      "duration": "5:20",
+      "hint": "Great for understanding where Kraken stories come from."
+    },
+    {
+      "id": "deep-sea-octopus",
+      "title": "Deep Sea Octopus Adventure",
+      "description": "Watch amazing octopuses in the deep ocean. These smart creatures are cousins to the animals that inspired the Kraken.",
+      "pointsCost": 10,
+      "embedUrl": "https://www.youtube.com/embed/CX_HdrlfzUE?si=0FNFuqUwcrVW0-OD",
+      "duration": "3:45",
+      "hint": "Learn about real ocean animals like the Kraken."
+    },
+    {
+      "id": "kraken-in-movies",
+      "title": "Kraken in Stories and Movies",
+      "description": "See how the Kraken appears in books, movies, and games. Discover how this legend lives on today.",
+      "pointsCost": 15,
+      "embedUrl": "https://www.youtube.com/embed/zEkrQEBoeoQ?si=lQtYcwVdwuN3hsdI",
+      "duration": "6:30",
+      "hint": "Fun way to see the Kraken in popular culture."
+    },
+    {
+      "id": "squid-vs-whale",
+      "title": "Giant Squid vs Sperm Whale",
+      "description": "Watch the epic battle between giant squids and sperm whales in the deep dark ocean.",
+      "pointsCost": 12,
+      "embedUrl": "https://www.youtube.com/embed/mAF1qolKWIE?si=24Tssgs2AyP4er5j",
+      "duration": "4:50",
+      "hint": "See how giant squids survive in the deep sea."
+    },
+    {
+      "id": "kraken-art",
+      "title": "Drawing and Creating Your Own Kraken",
+      "description": "Learn how to draw and create your own friendly Kraken character. Fun art activity for kids.",
+      "pointsCost": 8,
+      "embedUrl": "https://www.youtube.com/embed/HKvSH9rbJjU?si=PCV1qMxrwXCHxFl6",
+      "duration": "7:15",
+      "hint": "Creative fun after learning about Krakens."
+    },
+    {
+      "id": "deep-ocean-exploration",
+      "title": "Exploring the Deep Ocean",
+      "description": "Join scientists as they explore the deep ocean where giant squids and other Kraken-like creatures live.",
+      "pointsCost": 14,
+      "embedUrl": "https://www.youtube.com/embed/Uh3fNYVwDXM?si=KfxTlamoSWPN0_fZ",
+      "duration": "5:40",
+      "hint": "Perfect for curious explorers who want to see the deep sea."
+    },
+    {
+      "id": "kraken-facts",
+      "title": "Amazing Kraken Facts for Kids",
+      "description": "Fun and interesting facts about the Kraken legend and the real ocean animals that inspired it.",
+      "pointsCost": 10,
+      "embedUrl": "https://www.youtube.com/embed/YBT4Z3_Z6YI?si=bqkxCDYBWAALssK2",
+      "duration": "4:25",
+      "hint": "Great way to learn more Kraken facts."
+    }
+  ],
+  "game": {
+    "title": "Kraken Treasure Dash",
+    "shortDescription": "Click the glowing treasures before they sink. Each treasure you catch gives you pearls.",
+    "pointsCost": 8,
+    "rewardPerTreasure": 4,
+    "maxRounds": 9
+  },
+  "myOcean": {
+    "title": "Your Ocean Journal",
+    "subtitle": "See how much you have learned, how many pearls you have earned, and where to explore next.",
+    "milestones": [
+      {
+        "id": "first-mission",
+        "title": "First Mission Complete",
+        "description": "Finish one learning mission to unlock your first big wave of pearls."
+      },
+      {
+        "id": "video-unlock",
+        "title": "First Video Watched",
+        "description": "Spend pearls to watch a Kraken video and discover a new part of the story."
+      },
+      {
+        "id": "game-played",
+        "title": "First Game Played",
+        "description": "Use pearls to start the mini‑game and collect more treasures."
+      }
+    ]
+  }
+}
+
+
